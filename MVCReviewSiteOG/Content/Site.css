@@ -1,4 +1,10 @@
-﻿body {
+﻿/* HOME PAGE */
+
+
+
+
+
+body {
     padding-top: 50px;
     padding-bottom: 20px;
 }
@@ -21,4 +27,26 @@ input,
 select,
 textarea {
     max-width: 280px;
+}
+
+/* Thumbnail Cards*/
+
+.row {
+    padding-top: 10px;
+}
+
+/* cards */
+
+.card *:hover {
+	text-decoration: none;
+}
+
+.card .thumbnail {
+    padding: 0;
+    border: none;
+    text-align: center;
+    border-radius: 0;
+    /*-webkit-box-shadow: 0px 0.5px 1px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0.5px 1px 0px rgba(0,0,0,0.75);*/
+    box-shadow: 0px 0.5px 1px 0px rgba(0,0,0,0.75);
 }

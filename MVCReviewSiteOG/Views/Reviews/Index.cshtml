@@ -1,0 +1,46 @@
+﻿@model IEnumerable<MVCReviewSiteOG.Models.Review>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Reviews On Travel</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+<div class="container">
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <div class="col-md-6 card">
+                <div class="thumbnail">
+
+                    <h2>
+                        I traveled: @Html.DisplayFor(modelItem => item.Category.Type)
+                    </h2>
+                    <h3>
+                        Destination: @Html.DisplayFor(modelItem => item.Location)
+                    </h3>
+                    <h4>
+                        @Html.DisplayFor(modelItem => item.Title)
+                    </h4>
+                    <h4>
+                        @Html.DisplayFor(modelItem => item.Content)
+                    </h4>
+                    <h5>
+                        @item.Published.ToShortDateString()
+                    </h5>
+
+                    <p>
+                        @Html.ActionLink("Edit", "Edit", new { id = item.ReviewID }) |
+                        @Html.ActionLink("Details", "Details", new { id = item.ReviewID }) |
+                        @Html.ActionLink("Delete", "Delete", new { id = item.ReviewID })
+                    <p>
+                </div>
+            </div>
+
+        }
+    </div>
+</div>
