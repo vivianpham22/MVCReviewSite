@@ -179,8 +179,12 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\HomePage.css" />
     <Content Include="Content\Images\aria-hotel-budapest.jpg" />
     <Content Include="Content\Images\bali-island-1.jpg" />
+    <Content Include="Content\Images\caribe-muelle.jpg" />
+    <Content Include="Content\Images\home-tab1-hero-1367x520-beach-prog.jpg" />
+    <Content Include="Content\ReviewStyles.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />

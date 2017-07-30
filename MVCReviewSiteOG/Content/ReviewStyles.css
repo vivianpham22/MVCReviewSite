@@ -1,0 +1,18 @@
+﻿body {
+    background-image: url('Images/bali-island-1.jpg');
+    background-size: cover;
+}
+
+/* thumbnail cards*/
+.row {
+    padding-top: 10px;
+}
+
+.card .thumbnail {
+    padding: 0;
+    border: none;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0px 0.5px 1px 0px rgba(0,0,0,0.75);
+    border: 2px solid white;
+}
