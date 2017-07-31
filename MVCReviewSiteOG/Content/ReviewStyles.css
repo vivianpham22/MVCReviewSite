@@ -3,16 +3,15 @@
     background-size: cover;
 }
 
-/* thumbnail cards*/
-.row {
-    padding-top: 10px;
+div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
 }
 
-.card .thumbnail {
-    padding: 0;
-    border: none;
-    text-align: center;
-    border-radius: 15px;
-    box-shadow: 0px 0.5px 1px 0px rgba(0,0,0,0.75);
-    border: 2px solid white;
+div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
 }

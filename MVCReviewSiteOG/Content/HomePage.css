@@ -8,6 +8,16 @@ div.body-content {
 
 }
 
+.thumbnail {
+    margin-bottom: 5px;
+}
+
+.topPage {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
 
 .headerTop {
     background-image: url('Images/caribe-muelle.jpg');
@@ -37,4 +47,10 @@ div.body-content {
   padding: 5px;
   width: 100px;
   transition: all 0.5s;
+}
+
+#travelTrend {
+    padding-top: 20px;
+    height: 230px;
+    width: 500px;
 }
